@@ -1,0 +1,17 @@
+:root {
+    --Background: #E3E3E3;
+    --Purple: rgb(126, 56, 137);
+    --Green: rgb(67, 137, 56);
+    --Blue: rgb(56, 108, 137); 
+    --Purple-text-button: #682872; 
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
