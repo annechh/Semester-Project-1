@@ -13,24 +13,19 @@
 </head>
 <body>
     <header>
-        <nav class="max-width-header-1920 header-container">
+        <nav class="max-width-1920 header-container">
             <img src="images-SP1/CSM-Logo.png" class="logo-header" alt="Sunnfjord Science Museum Logo">
             <details>
                 <summary class="menu-button">Menu</summary>
                 <div class="dropdown-menu-container">
                     <div class="max-width-1340">
-                        <!-- <img src="images-SP1/SVG/Exit-icon.svg" class="close-menu-icon" alt="Close icon"> -->
                         <div class="list-wrapper">
                             <ul class="menu-ul-flex">
                                 <li class="menu-list-margin">
-                                    <a href="index.css" rel="HomePage">
-                                        <button class="button-style">Home</button>
-                                    </a>
+                                    <a href="index.css" class="button-style" rel="HomePage">Home</a>
                                 </li>
-                                <li>
-                                    <a href="exhibition.html" rel="Exhibitions">
-                                        <button class="button-style">Exhibitions</button>
-                                    </a>
+                                <li class="menu-list-smallmargin">
+                                    <a href="exhibition.html" class="button-style" rel="Exhibitions">Exhibitions</a>
                                 </li>
                                 <li><a href="" rel="">Cosmology</a></li>
                                 <li><a href="" rel="">Evolution</a></li>
@@ -40,25 +35,21 @@
                             </ul>
                             <ul class="menu-ul-flex">
                                 <li class="menu-list-margin">
-                                    <a href="location-contact.html" rel="">
-                                        <button class="button-style">Contact</button>
-                                    </a>
+                                    <a href="location-contact.html" class="button-style" rel="">Contact</a>
                                 </li>
-                                <li><a href="" rel=""><button class="button-style">Explore</button></a></li>
+                                <li class="menu-list-smallmargin">
+                                    <a href="" class="button-style" rel="">Explore</a>
+                                </li>
                                 <li><a href="" rel="">For Kids</a></li>
                                 <li><a href="" rel="">For Teachers</a></li>
                                 <li><a href="" rel="">Researchers</a></li>
                             </ul>
                             <ul class="menu-ul-flex">
                                 <li class="menu-list-margin">
-                                    <a href="" rel="">
-                                        <button class="button-style">Events</button>
-                                    </a>
+                                    <a href="" class="button-style" rel="">Events</a>
                                 </li>
-                                <li>
-                                    <a href="" rel="">
-                                        <button class="button-style">Get Ivolved</button>
-                                    </a>
+                                <li class="menu-list-smallmargin">
+                                    <a href="" class="button-style" rel="">Get Ivolved</a>
                                 </li>
                                 <li><a href="" rel="">Support</a></li>
                                 <li><a href="" rel="">Volunteer</a></li>
@@ -66,12 +57,10 @@
                             </ul>
                             <ul class="menu-ul-flex">
                                 <form action="/search" method="get">
-                                    <input type="search" class="menu-list-margin" name="search" placeholder="Search">                               
+                                    <input type="search" class="menu-list-margin" name="search" placeholder="Search">
                                 </form>
-                                <li class="menu-list-margin">
-                                    <a href="" rel="">
-                                        <button class="button-style">Facilities</button>
-                                    </a>
+                                <li class="menu-list-smallmargin">
+                                    <a href="" class="button-style" rel="">Facilities</a>
                                 </li>
                                 <li><a href="" rel="">Shop</a></li>
                                 <li><a href="" rel="">Food and Drink</a></li>
@@ -89,69 +78,115 @@
     
     <main>
         <section class="max-width-1920">
-            <div class="seperatorbox"></div>
+            <div class="header-img">
+                <img src="images-SP1/greg-rakozy-oMpAz-DN-9I-unsplash.jpg" alt="A person looking out to space">
+            </div>
+            
         </section>
     </main>
 
     <footer>
-        <section class="max-width-footer-1920 footer-container">
-            <div class="container">
-                <div class="ul-container">
-                    <div>
-                        <p class="footer-headline">Quick Links</p>
-                    </div>
-                    <ul>
-                        <li><a href="" rel="">Contact Us</a></li>
-                        <li><a href="" rel="">Events</a></li>
-                        <li><a href="" rel="">Contribution</a></li>
-                        <li><a href="" rel="">Exhibitions</a></li>
-                        <li><a href="" rel="">Privacy Policy</a></li>
-                        <li><a href="" rel="">Shop</a></li>
-                    </ul>
-                </div>
-                <div class="ul-container">
-                    <div>
-                        <p class="footer-headline">Follow Us</p>
-                    </div>
-                    <ul>
-                        <li><a href="" rel="">Instagram</a></li>
-                        <li><a href="" rel="">Facebook</a></li>
-                        <li><a href="" rel="">LinkedIn</a></li>
-                        <li><a href="" rel="">Snapchat</a></li>
-                        <li><a href="" rel="">TikTok</a></li>
-                    </ul>
-                </div>
-                <div class="ul-container">
-                    <div>
-                        <p class="footer-headline">Opening Hours</p>
-                    </div>
-                    <div class="ul-hours-flex">
-                        <ul class="ul-split">
-                            <li>Monday</li>
-                            <li>Tuesday</li>
-                            <li>Wednesday</li>
-                            <li>Thursday</li>
-                            <li>Friday</li>
-                            <li>Saturday</li>
-                            <li>Sunday</li>
-                        </ul>
-                        <ul class="ul-split ul-right">
-                            <li>Closed</li>
-                            <li>10-16</li>
-                            <li>10-16</li>
-                            <li>10-16</li>
-                            <li>10-19</li>
-                            <li>09-16</li>
-                            <li>09-13</li>
-                        </ul>
-                    </div>
-                </div>
+        <section class="max-width-1920 footer-container">
+            <div class="footer-inner-container">
+                <table class="table-container">
+                    <thead>
+                        <tr>
+                            <th class="footer-headline">Quick Links</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="" rel="">Contact Us</a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href="" rel="">Events</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Contribution</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Exhibitions</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Shop</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Privacy Policy</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Terms & Conditions</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table-container">
+                    <thead>
+                        <tr>
+                            <th class="footer-headline">Follow Us</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="" rel="">Instagram</a></td>
+                        </tr>
+                        <tr>
+                            <td> <a href="" rel="">Facebook</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">LinkedIn</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">Snapchat</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="" rel="">TikTok</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table-container">
+                    <thead>
+                        <tr>
+                            <th class="footer-headline">Opening Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody class="">
+                        <tr>
+                            <td>Monday</td>
+                            <td class="table-right">Closed</td>
+                        </tr>
+                        <tr>
+                            <td>Tuesday</td>
+                            <td class="table-right">10-16</td>
+                        </tr>
+                        <tr>
+                            <td>Wednesday</td>
+                            <td class="table-right">10-16</td>
+                        </tr>
+                        <tr>
+                            <td>Thursday</td>
+                            <td class="table-right">10-16</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td class="table-right">10-19</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td class="table-right">09-16</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td class="table-right">09-13</td>
+                        </tr>  
+                    </tbody>
+                </table>
             </div>
             <div class="contact-location">
-                <div><p>Phone: +47 123 45 678</p></div>
-                <div><p>E-mail: ssm@imaginary.com</p></div>
+                <div class="bottom-info-left"><adress>Phone: +47 123 45 678</adress></div>
+                <div class="bottom-info-left"><adress>Phone: +47 123 45 678</adress></div>
+
+                <div class="bottom-info-right"><adress>E-mail: ssm@imaginary.com</adress></div>
             </div>
-        </section>
+        </section> 
     </footer>
     
 </body>
