@@ -2,6 +2,9 @@
 @import url(footer.css);
 @import url(drop-down-menu.css);
 
+
+@import url(media.css);
+
 :root {
     --Background: #E3E3E3;
     --Purple-linear: linear-gradient(to bottom, #7E3889,#7e388908);
@@ -21,10 +24,18 @@ body {
     background: var(--Background);
 }
 
+.max-width-1920 {
+    width: 1920px;
+}
 
 
-.seperatorbox {
-    height: 600px;
-    max-width: 100%;
-    color: var(--Blue);
+/* ----- Header image ----- */
+
+.header-img {
+    display: flex;
+}
+
+.header-img img{
+    display: flex;
+    justify-content: center;
 }
