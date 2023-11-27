@@ -1,9 +1,13 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(drop-down-menu.css);
+
 :root {
     --Background: #E3E3E3;
-    --Purple: rgb(126, 56, 137);
+    --Purple-linear: linear-gradient(to bottom, #7E3889,#7e388908);
     --Green: rgb(67, 137, 56);
     --Blue: rgb(56, 108, 137); 
-    --Purple-text-button: #682872; 
+    --Purple-text-button-footer: #682872; 
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
@@ -14,4 +18,13 @@ h1, h2, h3, h4, h5, h6, p, a {
 body {
     margin: 0;
     font-family: 'Fredoka', sans-serif;
+    background: var(--Background);
+}
+
+
+
+.seperatorbox {
+    height: 600px;
+    max-width: 100%;
+    color: var(--Blue);
 }
