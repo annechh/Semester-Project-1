@@ -3,10 +3,87 @@
     --Purple: rgb(126, 56, 137);
     --Green: rgb(67, 137, 56);
     --Blue: rgb(56, 108, 137); 
-    --Purple-text-button: #682872; 
+    --Purple-text-button-footer: #682872; 
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
     margin: 0;
     padding: 0;
+}
+
+
+/* --------------------*/
+
+
+a, p {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+footer {
+    background: var(--Purple-text-button-footer);
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.max-width-footer-1920 {
+    width: 1920px;
+    height: 400px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    flex-wrap: wrap;
+}
+
+.ul-container {
+    height: 280px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.footer-headline {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.ul-hours-flex {
+    display: flex;
+}
+
+.ul-split {
+    height: auto;
+    width: auto;
+}
+
+.ul-right {
+    text-align: right;
+}
+
+.contact-location {
+    display: flex;
+    justify-content: center;
+    height: 30px;
 }
