@@ -31,6 +31,10 @@ ul {
     padding: 0;
 }
 
+
+/* ----- Footer container ----- */
+
+
 footer {
     background: var(--Purple-text-button-footer);
     display: flex;
@@ -38,52 +42,64 @@ footer {
     height: 400px;
 }
 
-.max-width-footer-1920 {
+.max-width-1920 {
     width: 1920px;
-    height: 400px;
 }
 
 .footer-container {
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container {
+.footer-inner-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;  
     flex-wrap: wrap;
 }
 
-.ul-container {
-    height: 280px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+/* ----- Footer info ----- */
+
+
+table {
+    color: white;
+    font-size: 20px;
+}
+
+thead th {
+    padding-bottom: 20px;
+}
+
+.table-right{
+    text-align: right;
 }
 
 .footer-headline {
-    padding-top: 20px;
-    font-weight: bold;
+    text-align: left;
 }
 
-.ul-hours-flex {
-    display: flex;
-}
 
-.ul-split {
-    height: auto;
-    width: auto;
-}
 
-.ul-right {
-    text-align: right;
-}
+
+
+
+/* ----- Phone and email info ----- */
 
 .contact-location {
     display: flex;
     justify-content: center;
     height: 30px;
 }
+
+.bottom-info-left {
+    padding-right: 20px;
+}
+
+.bottom-info-right {
+    padding-left: 20px;
+    border-left: 1px solid;
+    border-color: white;
+}
+
