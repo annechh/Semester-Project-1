@@ -60,7 +60,7 @@ footer {
     flex-wrap: wrap;
 }
 
-/* ----- Footer info ----- */
+/* ----- Footer table ----- */
 
 
 table {
@@ -74,15 +74,12 @@ thead th {
 
 .table-right{
     text-align: right;
+    
 }
 
-.footer-headline {
+th {
     text-align: left;
 }
-
-
-
-
 
 
 /* ----- Phone and email info ----- */
