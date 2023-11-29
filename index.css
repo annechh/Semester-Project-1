@@ -24,18 +24,28 @@ body {
     background: var(--Background);
 }
 
-.max-width-1920 {
-    width: 1920px;
+
+main {
+    width: 100%;
 }
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
 
 
 /* ----- Header image ----- */
 
-.header-img {
+/* .header-img {
     display: flex;
 }
 
 .header-img img{
     display: flex;
     justify-content: center;
-}
+} */

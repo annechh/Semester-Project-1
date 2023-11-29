@@ -36,18 +36,17 @@ ul {
 
 
 footer {
+    width: 100%;
     background: var(--Purple-text-button-footer);
     display: flex;
     justify-content: center;
-    height: 400px;
-}
-
-.max-width-1920 {
-    width: 1920px;
+    padding: 35px 0;
 }
 
 .footer-container {
-    height: 400px;
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,45 +57,62 @@ footer {
     justify-content: space-evenly;
     align-items: center;  
     flex-wrap: wrap;
+    padding: 0 35px;
 }
 
 /* ----- Footer table ----- */
 
 
-table {
+.table-container-footer {
     color: white;
     font-size: 20px;
+    width: 250px;
+    text-align: center;
+    padding-bottom: 35px;
 }
 
-thead th {
+article {
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-headline {
     padding-bottom: 20px;
+    font-size: 25px;
 }
 
+.table-left {
+    text-align: left;
+}
 .table-right{
     text-align: right;
     
 }
 
-th {
-    text-align: left;
-}
-
-
 /* ----- Phone and email info ----- */
 
-.contact-location {
-    display: flex;
+.contact-location-footer {
+    /* display: flex;
     justify-content: center;
+    flex-wrap: wrap; */
+    white-space: nowrap;
     height: 30px;
+    padding-top: 35px;
+    text-align: center;
 }
 
-.bottom-info-left {
-    padding-right: 20px;
+/* .phone-bottom-info-left {
+    padding: 0 20px;
+    border-right: 1px solid;
 }
 
-.bottom-info-right {
-    padding-left: 20px;
-    border-left: 1px solid;
-    border-color: white;
-}
+.email-bottom-info-right {
+    padding: 0 20px;
+} */
+
+
 

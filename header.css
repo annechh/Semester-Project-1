@@ -12,13 +12,53 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 
 
-/* --------------------*/
+/* ---------- Nav Menu ----------*/
 
 
 header {
     height: 150px;
     background: var(--Purple-linear);
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+nav { 
+    width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header {
+    width: 100px;
+    height: auto;
+    padding-right: 35px;
+}
+
+details {
+    padding-left: 35px;
+}
+
+.menu-button {
+    list-style: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: var(--Purple-text-button-footer);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+summary [open] {
+    background-color: #E3E3E3;
+}
+
+/* -----------------------------------*/
 
 a {
     color: white;
@@ -36,42 +76,5 @@ ul {
     padding: 0;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-}
 
-.header-container { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo-header {
-    width: 100px;
-    height: auto;
-    padding-left: 35px;
-}
-
-details {
-    padding-right: 35px;
-}
-
-summary {
-    list-style: none;
-    cursor: pointer;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: var(--Purple-text-button-footer);   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-}
-
-summary:active {
-    background-color: white;
-}
 
