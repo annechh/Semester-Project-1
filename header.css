@@ -54,6 +54,33 @@ details {
     font-size: 20px;
 }
 
+.menu-button::before {
+    content: 'Menu';
+    transition: transform 0.2s ease;
+
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    summary::before {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-button {
+        width: 50px;
+        transition: 0.2s ease;
+    }
+    
+
+
+}
+
+
 summary [open] {
     background-color: #E3E3E3;
 }
