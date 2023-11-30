@@ -1,6 +1,8 @@
 
 
 
+/* ================ Media max 1200px ================ */
+
 
 @media screen and (max-width: 1200px) {
 
@@ -10,14 +12,19 @@
     }
     .logo-header {
         width: 75px;
+        padding-right: 25px;
     }
     .dropdown-menu-container {
         top: 100px;
+        margin-left: -25px !important;
     }
     .menu-button {
         width: 100px;
         transition: 0.2s ease;
     }
+    .menu-details {
+        padding-left: 25px;
+    } 
     
 
     /*---------- text ----------*/
@@ -34,12 +41,15 @@
     /*---------- Buttons ----------*/ 
     .medium-btn {
         width: 250px !important;
-        height: 70px !important;
+        height: 60px !important;
     }
 
-
-
 }
+
+
+
+
+/* ================ Media max 850px ================ */
 
 
 @media screen and (max-width: 850px){
@@ -56,6 +66,14 @@
     }
     .dropdown-menu-container {
         top: 75px;
+        margin-left: -15px !important;
+        padding: 0 !important;
+    }
+    .menu-details {
+        padding-left: 15px;
+    } 
+    .logo-header {
+        padding-right: 15px;
     }
     summary::before {
         display: none;
@@ -69,6 +87,12 @@
     }
     .menu-list-margin {
         margin: 20px 5px;
+    }
+    .menu-ul {
+        margin: 0;
+    }
+    .under-menu-list {
+        margin-bottom: 20px;
     }
 
     /*---------- search bar ----------*/
@@ -95,8 +119,8 @@
 
     /*---------- Buttons ----------*/
     .medium-btn {
-        width: 200px !important;
-        height: 50px !important;
-        font-size: 20px !important;
+        width: 150px !important;
+        height: 40px !important;
+        font-size: 18px !important;
     } 
 }
