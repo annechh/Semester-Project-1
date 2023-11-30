@@ -6,7 +6,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Font-->
     <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Fredoka:wght@300&display=swap" rel="stylesheet">
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/aacfbda896.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="index.css">
 
     <title>Sunnfjord Sience Museum</title>
@@ -14,8 +18,8 @@
 <body>
     <header>
         <nav>
-            <details>
-                <summary class="menu-button">Menu</summary>
+            <details class="menu-details">
+                <summary class="menu-button"> <i class="fa-solid fa-bars icon menu-icon"></i></summary>
                     <div class="dropdown-menu-container">
                         <div class="menu-list-wrapper">
                             <ul class="menu-ul">
@@ -65,13 +69,15 @@
     </header>
     
     <main>
-        <section class="container">
-            
+        <section class="container image-header-container">
             <h1>Sunnfjord Science Museum</h1> <!-- IMAGE IN CSS  -->
-            <h2>tester 1</h2>
-            <h2>tester 2</h2>
-            
         </section>
+
+        <section class="container text-container">
+            <h2 class="h2-white">Explore Together</h2>
+            <h3 class="h3-white">Come join us at the Sunnfjord Science Museum where<br> we're committed to making science accessible to all. </h3>
+        </section>
+
     </main>
 
     <footer>
@@ -107,33 +113,26 @@
                         </tr>
                     </tbody>
                 </table>
-                <table class="table-container-footer">
-                    <thead>
-                        <tr>
-                            <th class="footer-headline">Follow Us</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><a href="" rel="">Instagram</a></td>
-                        </tr>
-                        <tr>
-                            <td> <a href="" rel="">Facebook</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="" rel="">LinkedIn</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="" rel="">Snapchat</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="" rel="">TikTok</a></td>
-                        </tr>
-                    </tbody>
-                </table>
                 <article>
+                    <h6 class="footer-headline">Follow Us</h6>
+                    <table class="table-container-footer">
+                        <tr>
+                            <td class="icon-align-right"><a href="" rel=""><i class="fa-brands fa-square-instagram icon footer-icon"></i></a></td>
+                            <td class="icon-align-left"> <a href="" rel=""><i class="fa-brands fa-facebook icon footer-icon"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td class="icon-align-right"><a href="" rel=""><i class="fa-brands fa-linkedin icon footer-icon"></i></a></td>
+                            <td class="icon-align-left"><a href="" rel=""><i class="fa-brands fa-square-snapchat icon footer-icon"></i></a></td>
+                        </tr>
+                        <tr>
+                            <td class="icon-align-right"><a href="" rel=""><i class="fa-brands fa-x-twitter icon footer-icon"></i></a></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </article>
+                <article>
+                    <h6 class="footer-headline">Opening Hours</h6> 
                     <table class="table-container-footer hours-table">
-                        <h6 class="footer-headline">Opening Hours</h6> <!-- endre ut ifra hva jeg bruker over-->
                         <tr>
                             <td class="table-left">Monday</td>
                             <td class="table-right">Closed</td>
@@ -166,7 +165,7 @@
                 </article>
             </div>
             <div class="contact-location-footer">
-                <p class="phone-bottom-info-left">Phone: +47 123 45 678</p>
+                <p class="phone-bottom-info-left" >Phone: +47 123 45 678</p>
                 <p class="email-bottom-info-right">E-mail: ssm@imaginary.com</p>
             </div>
         </div> 
