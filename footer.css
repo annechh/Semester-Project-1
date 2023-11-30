@@ -93,6 +93,18 @@ h6 {
     
 }
 
+.footer-icon {
+    padding: 10px;
+}
+
+.icon-align-right {
+    text-align: right;
+}
+
+.icon-align-left {
+    text-align: left;
+}
+
 /* ----- Phone and email info ----- */
 
 .contact-location-footer {
@@ -105,14 +117,7 @@ h6 {
     text-align: center;
 }
 
-/* .phone-bottom-info-left {
-    padding: 0 20px;
-    border-right: 1px solid;
-}
 
-.email-bottom-info-right {
-    padding: 0 20px;
-} */
 
 
 
