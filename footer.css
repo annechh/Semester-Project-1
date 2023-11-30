@@ -6,11 +6,6 @@
     --Purple-text-button-footer: #682872; 
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
-    margin: 0;
-    padding: 0;
-}
-
 
 /* --------------------*/
 
@@ -66,13 +61,9 @@ footer {
 .table-container-footer {
     color: white;
     font-size: 20px;
-    width: 250px;
+    width: 200px;
     text-align: center;
     padding-bottom: 35px;
-}
-
-article {
-    text-align: center;
 }
 
 h6 {
@@ -109,9 +100,6 @@ h6 {
 /* ----- Phone and email info ----- */
 
 .contact-location-footer {
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
     white-space: nowrap;
     height: 30px;
     padding-top: 35px;

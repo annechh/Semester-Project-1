@@ -1,0 +1,102 @@
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    /*---------- header ----------*/
+    header {
+        height: 100px;
+    }
+    .logo-header {
+        width: 75px;
+    }
+    .dropdown-menu-container {
+        top: 100px;
+    }
+    .menu-button {
+        width: 100px;
+        transition: 0.2s ease;
+    }
+    
+
+    /*---------- text ----------*/
+    h1 {
+        font-size: 6vw !important;
+    }
+    .h2-white {
+        font-size: 20px !important;
+    }
+    .h3-white {
+        font-size: 30px !important;
+    }
+
+    /*---------- Buttons ----------*/ 
+    .medium-btn {
+        width: 250px !important;
+        height: 70px !important;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 850px){
+    .hide {
+        display: none;
+    }
+
+    /*---------- header ----------*/
+    header {
+        height: 75px;
+    }
+    .logo-header {
+        width: 65px;
+    }
+    .dropdown-menu-container {
+        top: 75px;
+    }
+    summary::before {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-button {
+        width: 50px;
+        transition: 0.2s ease;
+    }
+    .menu-list-margin {
+        margin: 20px 5px;
+    }
+
+    /*---------- search bar ----------*/
+
+    .input-menu {
+        max-width: 250px;
+    }
+
+    .image-header-container {
+        height: 50vw !important;
+    }
+
+    /*---------- text ----------*/
+    h1 {
+        font-size: 7vw !important;
+    }
+    .h2-white {
+        font-size: 14px !important;
+    }
+    .h3-white {
+        font-size: 18px !important;
+    }
+
+
+    /*---------- Buttons ----------*/
+    .medium-btn {
+        width: 200px !important;
+        height: 50px !important;
+        font-size: 20px !important;
+    } 
+}
