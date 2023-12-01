@@ -28,6 +28,9 @@ body {
     background: var(--Purple-linear-top-mid-bo);
 }
 
+ul {
+    padding: 0;
+}
 
 main {
     width: 100%;
@@ -35,10 +38,24 @@ main {
 
 /*------ Text ------*/
 
+li {
+    color: white;
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
 p {
     font-size: 25px;
     color: black;
     margin: 0 5px 10px 5px;
+    text-align: center;
+
 }
 
 .phone-email-footer {
@@ -102,6 +119,7 @@ h4 {
 .header-img {
     align-items: center;
     width: 100%;
+    height: auto;
     z-index: -1;
 }
 
@@ -200,7 +218,7 @@ main {
     min-height: 500px;
 }
 
-.article-img {
+.article-img-1 {
     width: 100%;
     height: auto;
     border-radius: 5px 5px 0 0;
@@ -242,11 +260,24 @@ main {
     height: auto;
     border-radius: 5px;
     background-color: white;  
-    max-height: 600px; 
+    min-height: 600px; 
 }
 
 .article-margin-LR {
     margin:0 35px; 
+}
+
+.article-img-2-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    border-radius: 5px;
+}
+
+.center-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .article-info-explore {
@@ -256,18 +287,6 @@ main {
     text-align: center;
     max-width: 925px;
     width: 100%;
-}
-
-.center-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.article-img-container {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;  
 }
 
 .reverse-flex {

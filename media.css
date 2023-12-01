@@ -15,6 +15,8 @@
 
 @media screen and (max-width: 1090px) {
 
+    
+
     /*---------- Header ----------*/
     header {
         height: 100px;
@@ -36,6 +38,10 @@
     } 
 
     /*---------- Text ----------*/
+
+    p {
+        margin: 15px !important;
+    }
     h1 {
         font-size: 6vw !important;
     }
@@ -62,6 +68,7 @@
 
     .news-event-container {
         flex-wrap: wrap; 
+        gap: 25px !important;
     }
     .article-container-1 {
         margin: 0 !important;
@@ -75,14 +82,39 @@
         min-height: 200px !important;
     }
 
-    /*---------- Explore ---------*/
+    /*---------- Admission ---------- */
 
-    .explore-container {
-        /* flex-wrap: wrap; */
+    .admission-container {
+        margin-top: 25px !important;
+        margin-bottom: 0 !important;
     }
 
+    /*---------- Explore ---------*/
+
+    .reverse-flex {
+        flex-direction: column !important;
+    }
+    .explore-container {
+        align-items: center;
+        max-width: 1090px;
+        width: 100%;
+        height: auto !important;
+        gap: 25px !important;
+    }
+    .article-margin-LR {
+        margin:0 !important; 
+    }
+    .article-img-2-container {
+        overflow: none !important;
+    }
+    .article-img-2 {
+        max-width: 1090px !important;
+        width: 100%;
+        height: auto;
+    }
     .article-container-2{
-        
+        flex-direction: column;
+        min-height: 600px !important;
     }
     
 }
