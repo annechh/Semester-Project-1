@@ -37,7 +37,6 @@
     .menu-details {
         padding-left: 25px;
     } 
-    
 
     /*---------- text ----------*/
     h1 {
@@ -52,6 +51,7 @@
     h4 {
         font-size: 40px !important;
         height: 75px !important;
+        margin: 25px 0 !important;
     }
 
     /*---------- Buttons ----------*/ 
@@ -67,20 +67,18 @@
         flex-wrap: wrap; 
     }
     .article-container-1 {
-        max-width: 1000px !important;
-        max-height: 1000px !important;
         margin: 0 !important;
+        max-width: 1000px !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .article-info {
+        justify-content:unset !important;
+        min-height: 200px !important;
         
     }
-    .bilde-tester {
-        max-width: 800px !important;
-        max-height: 300px !important;
-        overflow: hidden !important;
-    }
-    .article-img {
-        
-
-    }
+    
 
 }
 
@@ -169,10 +167,10 @@
     /*---------- News / events ----------*/
 
     .news-event-container {
-        flex-wrap: wrap; 
+        /* flex-wrap: wrap;  */
     }
     .article-container-1 {
-        margin: 0 !important;
+        /* margin: 0 !important; */
     }
 }
     
