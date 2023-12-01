@@ -167,18 +167,17 @@ main {
 
 .news-event-container {
     display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
-    /* padding: 35px 0; */
-    justify-content: center;
-    gap: 30px;
-    /* background-color: var(--Green); */
+    gap: 35px;
 }
 
 .article-container-1 {
     max-width: 600px;
     width: 100%;
     max-height: 1000px;
+    height: 100%;
     border-radius: 5px;
     background-color: white;
     text-align: center;
@@ -188,16 +187,11 @@ main {
 .article-info {
     display: flex;
     flex-direction: column;
-    min-height: 500px;
     justify-content: space-between;
-}
-
-
-.bilde-tester {
     max-width: 600px;
-    max-height: 500px;
-    overflow: hidden;
+    min-height: 500px;
 }
+
 .article-img {
     width: 100%;
     height: auto;
