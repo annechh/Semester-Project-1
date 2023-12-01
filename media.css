@@ -10,15 +10,12 @@
 }
 
 
+/* ================ Media max 1090px ================ */
 
 
+@media screen and (max-width: 1090px) {
 
-/* ================ Media max 1000px ================ */
-
-
-@media screen and (max-width: 1000px) {
-
-    /*---------- header ----------*/
+    /*---------- Header ----------*/
     header {
         height: 100px;
     }
@@ -38,7 +35,7 @@
         padding-left: 25px;
     } 
 
-    /*---------- text ----------*/
+    /*---------- Text ----------*/
     h1 {
         font-size: 6vw !important;
     }
@@ -76,10 +73,18 @@
     .article-info {
         justify-content:unset !important;
         min-height: 200px !important;
+    }
+
+    /*---------- Explore ---------*/
+
+    .explore-container {
+        /* flex-wrap: wrap; */
+    }
+
+    .article-container-2{
         
     }
     
-
 }
 
 
@@ -93,7 +98,7 @@
         display: none;
     }
 
-    /*---------- header ----------*/
+    /*---------- Header ----------*/
     header {
         height: 75px;
     }
@@ -131,7 +136,7 @@
         margin-bottom: 20px;
     }
 
-    /*---------- search bar ----------*/
+    /*---------- Search bar ----------*/
 
     .input-menu {
         max-width: 250px;
@@ -141,7 +146,7 @@
         height: 50vw !important;
     }
 
-    /*---------- text ----------*/
+    /*---------- Text ----------*/
     h1 {
         font-size: 7vw !important;
     }
@@ -156,7 +161,6 @@
         height: 50px !important;
     }
 
-
     /*---------- Buttons ----------*/
     .medium-btn, .link-btn {
         width: 150px !important;
@@ -164,13 +168,6 @@
         font-size: 18px !important;
     } 
 
-    /*---------- News / events ----------*/
-
-    .news-event-container {
-        /* flex-wrap: wrap;  */
-    }
-    .article-container-1 {
-        /* margin: 0 !important; */
-    }
-}
     
+}
+
