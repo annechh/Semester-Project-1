@@ -401,6 +401,7 @@ h5 {
 
 .name-email-field, .type-text {
     padding-left: 25px;
+    padding-right: 25px;
     box-sizing: border-box;
 }
 
