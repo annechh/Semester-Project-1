@@ -56,6 +56,10 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+.link-black {
+    color: black;
+    text-decoration: underline;
+}
 
 p {
     font-size: 22px;
@@ -132,6 +136,13 @@ h5 {
     justify-content: center;
 }
 
+.shadow-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    margin-bottom: 100px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0 0 5px 5px;
+}
+
 .h1-header-text {
         font-size: 5vw;
         font-weight: 600;
@@ -140,7 +151,6 @@ h5 {
         margin-top: -20px;
         position: absolute;
         align-self: center;
-        z-index: -1;
 }
 
 /*----- Buttons -----*/
@@ -172,14 +182,16 @@ h5 {
     cursor: pointer;
 }
 
-/* ----- Header image ----- */
+/* ----- Home page big image ----- */
 
 .header-img {
     align-items: center;
     width: 100%;
     height: auto;
-    z-index: -1;
+    z-index: -2;
 }
+
+/*----- Textbox under image -----*/
 
 .container-black {
     height: auto;
@@ -209,6 +221,7 @@ h5 {
     padding: 35px 0;
     border-radius: 5px;
     background: var(--Blue-linear-top-mid-bo);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .article-container-1 {
@@ -219,6 +232,7 @@ h5 {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    padding-bottom: 25px;
     background-color: white;
     text-align: center;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -264,8 +278,10 @@ h5 {
     flex-direction: column;
     gap: 35px;
     border-radius: 5px;
-    background: var(--Green-linear-top-mid-bo);
+    /* background: var(--Green-linear-top-mid-bo); */
     padding: 35px 0;
+    /* box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25); */
+
 }
 
 .article-container-2 {
@@ -317,6 +333,7 @@ h5 {
     gap: 35px;
     border-radius: 5px;
     background: var(--Blue-linear-top-mid-bo);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .food-drink-info {
@@ -327,6 +344,7 @@ h5 {
     background-color: white;
     border-radius: 5px;
     padding-bottom: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .food-drink-info img{
@@ -402,4 +420,8 @@ h5 {
 
 .green-background {
     background: var(--Green-linear-top-mid-bo);
+}
+
+.blue-background {
+    background: var(--Blue-linear-top-mid-bo);
 }

@@ -22,10 +22,12 @@ nav {
     width: 100px;
     height: auto;
     padding-right: 35px;
+    /* padding-left: 35px; */
 }
 
 .menu-details {
     padding-left: 35px;
+    /* padding-right: 35px; */
 }
 
 .menu-button {
@@ -42,6 +44,7 @@ nav {
     font-size: 20px;
 }
 
+
 .menu-button::before {
     content: 'Menu';
     transition: transform 0.2s ease;
@@ -51,7 +54,6 @@ nav {
     display: none;
 }
 
-/* -----------------------------------*/
 
 
 
