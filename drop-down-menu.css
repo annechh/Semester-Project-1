@@ -6,7 +6,7 @@
     height: auto;
     position: absolute;
     top: 150px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.88)), url(images-SP1/unsplash_Q_RBVFFXR_g.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.88)), url(images-SP1/unsplash_Q_RBVFFXR_g.jpg);
     display: flex;
     flex-direction: column;
     padding: 35px 0 ;

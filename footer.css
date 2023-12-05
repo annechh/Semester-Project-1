@@ -42,12 +42,11 @@ footer {
     align-self: center;
 }
 
-h6 {
-    font-size: 20px;
-    color: white;
-}
+
 
 .footer-headline {
+    font-size: 20px;
+    color: white;
     padding-bottom: 20px;
     font-size: 25px;
     font-weight: 600;
