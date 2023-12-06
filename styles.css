@@ -7,14 +7,13 @@
 
 :root {
     --Background: #E3E3E3;
+    --Purple-linear-top-mid-bo: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
     --Purple-header-linear: linear-gradient(to bottom, #7E3889,#7e388908);
     
-    --Purple-linear-top-mid-bo: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
     --Green-linear-top-mid-bo: linear-gradient(to bottom,#438938,#43893875,#438938);
     --Blue-linear-top-mid-bo: linear-gradient(to bottom,#386C89,#386d8965,#386C89);
 
     --Green: rgb(67, 137, 56);
-    --Blue: rgb(56, 108, 137); 
     --Purple-text-button-footer: #682872; 
 }
 
@@ -55,6 +54,7 @@ a {
     text-decoration: none;
     font-size: 20px;
 }
+
 .link-black {
     color: black;
     text-decoration: underline;
@@ -82,17 +82,12 @@ p {
     color: white;
 }
 
-h2 { /* fra h5  OK*/
+h2 { 
     margin: 25px 0 10px 0;
     font-size: 25px;
 }
 
-/* h3 {
-    font-size: 35px;
-    font-weight: 600;
-} */
-
-h3 { /* fra h4  OK*/
+h3 { 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,8 +125,6 @@ h3 { /* fra h4  OK*/
     margin: 20px 0;
     
 }
-
-
 
 /*----- Icons -----*/
 
@@ -203,6 +196,18 @@ h3 { /* fra h4  OK*/
     cursor: pointer;
 }
 
+.menu-link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 45px;
+    background-color: var(--Purple-text-button-footer);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 /* ----- Home page big image ----- */
 
 .header-img {
@@ -212,7 +217,7 @@ h3 { /* fra h4  OK*/
     z-index: -2;
 }
 
-/*----- Textbox under image -----*/
+/*----- Textbox under big image homepage-----*/
 
 .container-black {
     height: auto;
@@ -248,7 +253,6 @@ h3 { /* fra h4  OK*/
 .article-container-1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     max-width: 600px;
     width: 100%;
     height: auto;
@@ -278,7 +282,7 @@ h3 { /* fra h4  OK*/
 
 .admission-container {
     max-width: 1450px;
-    background-color: rgb(14, 14, 14);
+    background-color: black;
     margin-top: 100px;
     border-radius: 5px;
     align-items: center;
@@ -286,19 +290,16 @@ h3 { /* fra h4  OK*/
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-
-
-/*----- Explore -----*/
+/*----- Explore - Exhibition - Get involved/contribution -----*/
 
 .horizontal-card-container {
     display: flex;
     flex-direction: column;
     gap: 35px;
     border-radius: 5px;
-    /* background: var(--Green-linear-top-mid-bo); */
+    background: var(--Green-linear-top-mid-bo);
     padding: 35px 0;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .article-container-2 {
@@ -341,37 +342,6 @@ h3 { /* fra h4  OK*/
     flex-direction: row-reverse;
 }
 
-/*--------- Facilities ( samme some news/events, finn et felles container navn) ---------*/
-
-.food-drink-container {
-    display: flex;
-    justify-content: center;
-    height: auto;
-    padding: 35px 0;
-    gap: 35px;
-    border-radius: 5px;
-    background: var(--Blue-linear-top-mid-bo);
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-.food-drink-info {
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background-color: white;
-    border-radius: 5px;
-    padding-bottom: 10px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-.food-drink-info img{
-    border-radius: 5px 5px 0 0;
-    width: 100%;
-    height: auto;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
 /*-------- Contact --------*/
 
 .contact-container {
@@ -382,6 +352,7 @@ h3 { /* fra h4  OK*/
     padding-top: 35px;
     border-radius: 5px;
 }
+
 
 .contact-forms {
     display: flex;
