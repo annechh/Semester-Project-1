@@ -1,5 +1,13 @@
 
 
+@media screen and (min-width: 1920px) {
+
+    .h1-header-text{
+        font-size: 100px !important;
+    }
+}
+
+
 /* ================ Media max 1090px ================ */
 
 
