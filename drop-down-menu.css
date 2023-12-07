@@ -30,8 +30,9 @@
     height: auto;
 }
 
-li {
+.menu-ul li {
     text-align: center;
+    list-style: none;
 }
 
 .li-menu-padding {

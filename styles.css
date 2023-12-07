@@ -1,13 +1,16 @@
 @import url(header.css);
 @import url(footer.css);
 @import url(drop-down-menu.css);
+@import url(doc-terms-privacy.css);
 
 
 @import url(media.css);
 
 :root {
     --Background: #E3E3E3;
-    --Purple-linear-top-mid-bo: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
+    --Purple-linear-background: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
+    --Purple-faded-background: linear-gradient(to bottom,#7e388908,#7e38897e,#7e388908);
+
     --Purple-header-linear: linear-gradient(to bottom, #7E3889,#7e388908);
     
     --Green-linear-top-mid-bo: linear-gradient(to bottom,#438938,#43893875,#438938);
@@ -27,7 +30,13 @@ body {
     font-family: 'Fredoka', sans-serif;
     /* background:var(--Background); */
     /* background: black; */
-    background: var(--Purple-linear-top-mid-bo);
+    background: var(--Purple-linear-background);
+}
+
+.doc-background-color {
+    background: var(--Purple-faded-background);
+    background: #6828725d;
+
 }
 
 ul {
@@ -45,7 +54,7 @@ main {
 
 li {
     color: white;
-    list-style: none;
+    /* list-style: none; */
     font-size: 20px;
 }
 
@@ -112,7 +121,7 @@ h3 {
 }
 
 .h3-admission {
-    padding: 35px 0;
+    padding: 15px 0;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
     margin: 0;
