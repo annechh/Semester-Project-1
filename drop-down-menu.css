@@ -30,6 +30,10 @@
     height: auto;
 }
 
+.menu-ul::-webkit-details-marker {
+    display: none;
+}
+
 .menu-ul li {
     text-align: center;
     list-style: none;
