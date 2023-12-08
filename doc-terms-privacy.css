@@ -33,11 +33,11 @@
     font-size: 30px;
     font-weight: 700;
     color:var(--Purple-text-button-footer);
-    margin: 0 25px;
+    margin: 0 25px 15px 25px;
 }
 
 .text-summary {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     text-align: left;  
     color: black;
     font-size: 22px;
