@@ -22,6 +22,13 @@ nav {
     width: 100px;
     height: auto;
     padding-left: 35px;
+    transition: 0.3s ease;
+}
+
+.logo-header:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .menu-details {
@@ -40,12 +47,18 @@ nav {
     align-items: center;
     color: white;
     font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.menu-button:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
 }
 
 
 .menu-button::before {
     content: 'Menu';
-    transition: transform 0.2s ease;
+    /* transition: transform 0.2s ease; */
 }
 
 .menu-icon {
