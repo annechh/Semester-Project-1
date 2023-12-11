@@ -3,7 +3,7 @@
 /* ---------- Nav Menu ----------*/
 
 header {
-    height: 150px;
+    height: 125px;
     background: var(--Purple-header-linear);
     width: 100%;
     display: flex;
