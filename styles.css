@@ -110,7 +110,7 @@ h2 {
     
 }
 
-h3 { 
+h3, .h1-visit { 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -386,7 +386,7 @@ h4 {
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding-top: 35px;
+    padding: 35px 0 35px 0;
     border-radius: 5px;
 }
 
@@ -398,7 +398,7 @@ h4 {
     max-width: 1000px;
     width: 100%;
     padding-top: 35px;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
     border-radius: 5px;
     background: white;
     gap: 35px;
