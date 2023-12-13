@@ -15,23 +15,9 @@
     
     
     /*---------- Header/Menu ----------*/
-    header {
-        height: 100px;
-    }
-    .logo-header {
-        width: 75px;
-        padding-left: 25px;
-    }
-    .dropdown-menu-container {
-        top: 100px;
-    }
-    .menu-button {
-        width: 100px;
-        transition: 0.2s ease;
-    }
-    .menu-details {
-        padding-right: 25px;
-    } 
+    
+    
+    
     .shadow-overlay {
         margin-bottom: 50px !important;
     }
@@ -45,9 +31,8 @@
     .footer-headline {
         font-size: 25px !important;
     }
-    .p-mini-headline {
+    .p-mini-headline-margin {
         margin-top: 25px !important;
-        margin-bottom: 0 !important;
     }
     .p-no-margin {
         margin: 0 !important;
@@ -149,7 +134,6 @@
         max-width: 1090px !important;
         width: 100%;
         height: auto;
-        border-radius: 5px 5px 0 0 !important;
     }
 
     /*--------- Contact --------*/
@@ -172,10 +156,8 @@
     }
 
 
-    /*-------- Footer -------- */
-    footer {
-        margin-top: 75px;
-    }
+    
+    
     
 }
 
@@ -291,11 +273,6 @@
     }
 
     /*-------- Footer -------- */
-    footer {
-        margin-top: 50px;
-    }
-
     
-}
 
-/* Kansje en 499px for meny scroll */
+}

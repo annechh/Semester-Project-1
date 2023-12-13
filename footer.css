@@ -29,10 +29,9 @@ footer {
 
 /* ----- Footer table ----- */
 
-.table-container-hours {
+.table-container-hours { /* Also used in location contact page */
     font-size: 22px;
     width: 200px;
-    /* text-align: center; */
     padding-bottom: 35px;
 }
 
@@ -42,15 +41,13 @@ footer {
     padding-bottom: 20px;
     font-size: 25px;
     font-weight: 600;
-    /* text-align: center; */
 }
 
 .table-left {
     text-align: left;
 }
 .table-right{
-    text-align: right;
-    
+    text-align: right;   
 }
 
 .footer-icon {
@@ -75,6 +72,21 @@ footer {
 }
 
 
+/* ================ Media max 1090px ================ */
+
+@media screen and (max-width: 1090px) {
+
+    footer {
+        margin-top: 75px;
+    }
+}
 
 
+/* ================ Media max 850px ================ */
 
+@media screen and (max-width: 850px){
+
+    footer {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,56 @@
+/*----- Buttons -----*/
+
+.link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    margin: 35px 0;
+    background-color: var(--Purple-text-button-footer);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.medium-btn {
+    width: 300px;
+    height: 70px;
+    margin: 0 0 35px 0 ;
+    background-color: var(--Purple-text-button-footer);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.menu-link-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 45px;
+    background-color: var(--Purple-text-button-footer);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.link-btn:hover, .medium-btn:hover,.menu-link-btn:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
+
+
+/* ================ Media max 1090px ================ */
+
+@media screen and (max-width: 1090px) {
+
+
+}

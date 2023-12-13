@@ -11,7 +11,6 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.88)), url(images-SP1/unsplash_Q_RBVFFXR_g.jpg);
     padding: 35px 0 ;
     left: 0%;
-    border-radius: 0 0 5px 5px;
     box-shadow: 0 0 25px 5px rgba(233, 233, 233, 0.354);
     z-index: 1;
 }
@@ -51,12 +50,6 @@
     margin: 20px 5px;
 }
 
-.li-color {
-    background-color: #682872;
-    padding: 10px 0;
-    border-radius: 5px;
-}
-
 /* ------ Search bar ------- */
 
 .input-menu {
@@ -91,4 +84,14 @@
 .input-menu:focus {
     outline:white 1px solid;
     padding-left: 35px;
+}
+
+
+/* ================ Media max 1090px ================ */
+
+@media screen and (max-width: 1090px) {
+
+    .dropdown-menu-container {
+        top: 100px;
+    }
 }

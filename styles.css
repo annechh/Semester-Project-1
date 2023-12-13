@@ -2,6 +2,7 @@
 @import url(footer.css);
 @import url(drop-down-menu.css);
 @import url(doc-terms-privacy.css);
+@import url(button.css);
 
 
 @import url(media.css);
@@ -12,15 +13,15 @@
     --Purple-faded-background: linear-gradient(to bottom,#7e388908,#7e38897e,#7e388908);
 
     --Purple-header-linear: linear-gradient(to bottom, #7E3889,#7e388908);
-    
+
     --Green-linear-top-mid-bo: linear-gradient(to bottom,#438938,#43893875,#438938);
     --Blue-linear-top-mid-bo: linear-gradient(to bottom,#386C89,#386d8965,#386C89);
 
     --Green: rgb(67, 137, 56);
-    --Purple-text-button-footer: #682872; 
+    --Purple-text-button-footer: #682872;
 }
 
-h1, h2, h3, h4, h5, p, a {
+h1, h2, h3, h4, h5, p, a, ul {
     margin: 0;
     padding: 0;
 }
@@ -28,19 +29,8 @@ h1, h2, h3, h4, h5, p, a {
 body {
     margin: 0;
     font-family: 'Fredoka', sans-serif;
-    /* background:var(--Background); */
-    /* background: black; */
     background: var(--Purple-linear-background);
-}
-
-.doc-background-color {
-    background: var(--Purple-faded-background);
-    background: #6828725d;
-
-}
-
-ul {
-    padding: 0;
+    background: var(--Background);
 }
 
 main {
@@ -54,7 +44,6 @@ main {
 
 li {
     color: white;
-    /* list-style: none; */
     font-size: 20px;
 }
 
@@ -77,13 +66,13 @@ p {
     text-align: center;
 }
 
-.p-mini-headline {
-    font-weight: 600;
+
+.p-mini-headline-margin { /* For location */
     margin-top: 25px;
     margin-bottom: 0;
 }
 
-.p-no-margin {
+.p-no-margin { /* 0 margin for adress, phone and email */
     margin: 0;
 }
 
@@ -97,20 +86,19 @@ p {
     color: white;
 }
 
-h2 { 
-    margin: 25px 0 10px 0;
+h2 {
+    margin: 25px 0 25px 0;
     font-size: 25px;
 }
 
-.h2-white { 
+.h2-white { /* Explore together home page */
     font-size: 25px;
     font-weight: 300;
     color: white;
     margin: 20px 0;
-    
 }
 
-h3, .h1-visit { 
+h3, .h1-visit {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -119,12 +107,11 @@ h3, .h1-visit {
     width: 100%;
     height: 100px;
     margin: 35px 0;
-    border-radius: 5px;
     background-color: white;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
-.h3-white {
+.h3-white { /* Come join us, home page */
     color: white;
     text-align: center;
     margin: 0 10px;
@@ -139,9 +126,10 @@ h3, .h1-visit {
     background-color: rgba(255, 255, 255, 0);
     box-shadow: none;
     margin: 0;
+    color: white;
 }
 
-h4 {
+h4 { /* Admission */
     font-size: 25px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -169,7 +157,6 @@ h4 {
     background: rgba(0, 0, 0, 0.7);
     margin-bottom: 100px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    border-radius: 0 0 5px 5px;
 }
 
 .h1-header-text {
@@ -182,64 +169,6 @@ h4 {
         align-self: center;
 }
 
-.border-radius-right img {
-    border-radius: 0 5px 5px 0;
-}
-
-.border-radius-left img {
-    border-radius: 5px 0 0 5px;
-}
-
-/*----- Buttons -----*/
-
-.link-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 70px;
-    margin: 35px 0;
-    background-color: var(--Purple-text-button-footer);
-    border-radius: 5px;
-    font-size: 30px;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-
-
-.medium-btn {
-    width: 300px;
-    height: 70px;
-    margin: 0 0 35px 0 ;
-    background-color: var(--Purple-text-button-footer);
-    border-radius: 5px;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
-    border: none;
-    align-self: center;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.menu-link-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 45px;
-    background-color: var(--Purple-text-button-footer);
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: 500;
-    transition: 0.3s ease;
-}
-
-.link-btn:hover, .medium-btn:hover,.menu-link-btn:hover {
-    transition: 0.3s ease;
-    transform: scale(1.1);
-}
 
 /* ----- Home page big image ----- */
 
@@ -255,7 +184,6 @@ h4 {
 .container-black {
     height: auto;
     max-height: 100%;
-    border-radius: 0 0 5px 5px;
     background-color: black;
     display: flex;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -278,7 +206,6 @@ h4 {
     height: auto;
     gap: 35px;
     padding: 35px 0;
-    border-radius: 5px;
     background: var(--Blue-linear-top-mid-bo);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
@@ -289,7 +216,6 @@ h4 {
     max-width: 600px;
     width: 100%;
     height: auto;
-    border-radius: 5px;
     padding-bottom: 25px;
     background-color: white;
     text-align: center;
@@ -299,7 +225,6 @@ h4 {
 .article-container-1 img{
     width: 100%;
     height: auto;
-    border-radius: 5px 5px 0 0;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -321,7 +246,6 @@ h4 {
     max-width: 1450px;
     background-color: black;
     margin-top: 100px;
-    border-radius: 5px;
     align-items: center;
     margin-bottom: 65px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -333,7 +257,6 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 35px;
-    border-radius: 5px;
     background: var(--Green-linear-top-mid-bo);
     padding: 35px 0;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -342,21 +265,19 @@ h4 {
 .article-container-2 {
     display: flex;
     height: auto;
-    border-radius: 5px;
-    background-color: white;  
+    background-color: white;
     max-height: 600px;
     height: 100%;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .article-margin-LR {
-    margin:0 35px; 
+    margin:0 35px;
 }
 
 .article-img-2-container {
     width: 100%;
-    overflow: hidden; 
-    border-radius: 0 0;
+    overflow: hidden;
 }
 
 .center-img {
@@ -387,7 +308,6 @@ h4 {
     align-items: center;
     gap: 25px;
     padding: 35px 0 35px 0;
-    border-radius: 5px;
 }
 
 
@@ -398,8 +318,6 @@ h4 {
     max-width: 1000px;
     width: 100%;
     padding-top: 35px;
-    /* margin-bottom: 35px; */
-    border-radius: 5px;
     background: white;
     gap: 35px;
 }
@@ -413,7 +331,6 @@ h4 {
     width: 100%;
     padding: 0;
     border: 0;
-    border-radius: 5px;
     font-size: 22px;
     font-family: 'Fredoka', sans-serif;
     background: var(--Background);

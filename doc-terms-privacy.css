@@ -1,5 +1,9 @@
 
 
+.doc-background-color {
+    background: #6828725d;
+}
+
 .document-container {
     max-width: 1400px;
     width: 100%;
@@ -10,7 +14,6 @@
     justify-content: center;
     margin: 100px 0;
     background: white;
-    border-radius: 5px;
 }
 
 .h1-document {
@@ -21,12 +24,11 @@
     background: white;
     max-width: 1385px;
     width: 100%;
-    border-radius: 5px;
     padding: 25px 0 0 15px;
 }
 
 .document-info-container details {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .doc-heading {
@@ -34,6 +36,10 @@
     font-weight: 700;
     color:var(--Purple-text-button-footer);
     margin: 0 25px 15px 25px;
+}
+
+.ul-doc-margin {
+    margin-left: 25px;
 }
 
 .text-summary {
