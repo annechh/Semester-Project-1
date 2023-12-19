@@ -87,11 +87,3 @@
 }
 
 
-/* ================ Media max 1090px ================ */
-
-@media screen and (max-width: 1090px) {
-
-    .dropdown-menu-container {
-        top: 100px;
-    }
-}

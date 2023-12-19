@@ -65,26 +65,7 @@ nav {
 }
 
 
-/* ================ Media max 1090px ================ */
 
-
-@media screen and (max-width: 1090px) {
-
-    header {
-        height: 100px;
-    }
-    .logo-header {
-        width: 75px;
-        padding-left: 25px;
-    }
-    .menu-button {
-        width: 100px;
-        transition: 0.2s ease;
-    }
-    .menu-details {
-        padding-right: 25px;
-    } 
-}
 
 
 
