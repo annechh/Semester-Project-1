@@ -5,7 +5,7 @@
 @import url(button.css);
 
 
-@import url(media.css);
+/* @import url(media.css); */
 
 :root {
     --Background: #E3E3E3;
@@ -40,103 +40,6 @@ main {
 }
 
 
-/*------ Text ------*/
-
-li {
-    color: white;
-    font-size: 20px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-.link-black {
-    color: black;
-    text-decoration: underline;
-    font-weight: 500;
-}
-
-p {
-    font-size: 22px;
-    color: black;
-    margin: 0 5px 10px 5px;
-    text-align: center;
-}
-
-
-.p-mini-headline-margin { /* For location */
-    margin-top: 25px;
-    margin-bottom: 0;
-}
-
-.p-no-margin { /* 0 margin for adress, phone and email */
-    margin: 0;
-}
-
-.p-about-margin-top {
-    margin-top: 25px;
-    margin-left: 20px;
-    text-align: left;
-}
-
-.text-white {
-    color: white;
-}
-
-h2 {
-    margin: 25px 0 25px 0;
-    font-size: 25px;
-}
-
-.h2-white { /* Explore together home page */
-    font-size: 25px;
-    font-weight: 300;
-    color: white;
-    margin: 20px 0;
-}
-
-h3, .h1-visit {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    width: 100%;
-    height: 100px;
-    margin: 35px 0;
-    background-color: white;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-.h3-white { /* Come join us, home page */
-    color: white;
-    text-align: center;
-    margin: 0 10px;
-    font-size: 35px;
-    font-weight: 500;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: none;
-}
-
-.h3-admission {
-    padding: 15px 0;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: none;
-    margin: 0;
-    color: white;
-}
-
-h4 { /* Admission */
-    font-size: 25px;
-    margin-bottom: 10px;
-    font-weight: 500;
-    text-align: center;
-}
-
-
 /*----- Icons -----*/
 
 .icon {
@@ -160,13 +63,13 @@ h4 { /* Admission */
 }
 
 .h1-header-text {
-        font-size: 5vw;
-        font-weight: 600;
-        color: white;
-        text-shadow: 0px 5px 4px #000;
-        margin-top: -20px;
-        position: absolute;
-        align-self: center;
+    font-size: 5vw;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 5px 4px #000;
+    margin-top: -20px;
+    position: absolute;
+    align-self: center;
 }
 
 
@@ -216,7 +119,7 @@ h4 { /* Admission */
     max-width: 600px;
     width: 100%;
     height: auto;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     background-color: white;
     text-align: center;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -290,7 +193,7 @@ h4 { /* Admission */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     max-width: 925px;
     width: 100%;
@@ -310,7 +213,6 @@ h4 { /* Admission */
     padding: 35px 0 35px 0;
 }
 
-
 .contact-forms {
     display: flex;
     flex-direction: column;
@@ -322,7 +224,7 @@ h4 { /* Admission */
     gap: 35px;
 }
 
-.contact-text {
+.contact-text-box {
     max-width: 600px;
 }
 
@@ -331,7 +233,7 @@ h4 { /* Admission */
     width: 100%;
     padding: 0;
     border: 0;
-    font-size: 22px;
+    font-size: 20px;
     font-family: 'Fredoka', sans-serif;
     background: var(--Background);
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -353,14 +255,119 @@ h4 { /* Admission */
     outline: 2px solid rgba(0, 0, 0, 0.137);
 }
 
-.btn-green {
-    background: var(--Green);
-    font-size: 40px;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+/*------ Text ------*/
+
+li {
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.link-black {
+    color: black;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+}
+
+.article-text-1 {
+    text-align: left;
+    margin: 0 25px 25px 25px;
+}
+
+.article-text-2 {
+    margin: 0 25px;
+    text-align: left;
+}
+
+.text-2-margin-bottom {
+    margin-bottom: 25px;
 }
 
 
-/*------ Specific changes -------*/
+.p-mini-headline-margin { /* For location */
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.p-no-margin { /* 0 margin for adress, phone and email */
+    margin: 0;
+}
+
+.p-about {
+    margin: 25px;
+    text-align: left;
+}
+
+.text-white {
+    color: white;
+}
+
+h2 {
+    margin: 25px;
+    font-size: 25px;
+}
+
+.h2-white { /* Explore together home page */
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    margin: 20px 0;
+}
+
+h3, .h1-visit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 100%;
+    height: 100px;
+    margin: 35px 0;
+    background-color: white;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.h3-white { /* Come join us, home page */
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+
+.h3-admission {
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    margin: 0;
+    color: white;
+}
+
+h4 { 
+    font-size: 22px;
+    margin: 0 10px 25px 10px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.admission-text {
+    margin: 0  25px 25px 25px;
+    text-align: center;
+}
+
+/*------ Specific article container color changes -------*/
 
 .green-background {
     background: var(--Green-linear-top-mid-bo);
@@ -368,4 +375,304 @@ h4 { /* Admission */
 
 .blue-background {
     background: var(--Blue-linear-top-mid-bo);
+}
+
+
+
+/* ================ Media min 1920px ================ */
+
+@media screen and (min-width: 1920px) {
+
+    .h1-header-text{
+        font-size: 100px;
+    }   
+}
+
+
+/* ================ Media max 1090px ================ */
+
+@media screen and (max-width: 1090px) {
+    
+    
+    /*---------- Header/Menu ----------*/
+    .shadow-overlay {
+        margin-bottom: 50px;
+    }
+    header {
+        height: 100px;
+    }
+    .logo-header {
+        width: 75px;
+        padding-left: 25px;
+    }
+    .menu-button {
+        width: 100px;
+        transition: 0.2s ease;
+    }
+    .menu-details {
+        padding-right: 25px;
+    } 
+
+    /*--------Drop down menu -------*/
+    .dropdown-menu-container {
+        top: 100px;
+    }
+    
+    
+    /*---------- Text ----------*/
+    
+    .article-text-2 {
+        margin: 0 25px 25px 25px;
+        text-align: left;
+    }
+    .p-mini-headline-margin {
+        margin-top: 25px;
+    }
+    
+    
+    h1 {
+        font-size: 6vw;
+    }
+    
+    .h2-white {
+        font-size: 20px;
+    }
+    h3, .h1-visit {
+        font-size: 40px;
+        height: 75px;
+        margin: 25px 0;
+    }
+    .h3-white {
+        font-size: 30px;
+    }
+    .h3-admission {
+        padding:15px 0;
+        margin: 0;
+    }
+    h4 {
+        font-size: 23px;
+    }
+
+    /*---------- News/Events - Facilities - Visit - About ----------*/
+    .vertical-card-container {
+        gap: 25px;
+        padding: 25px 0;
+    }
+    .article-container-1 {
+        margin: 0;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-margin-left {
+        margin-left: 15px;
+    }
+    .article-margin-right{
+        margin-right: 15px;
+    }
+    .article-info {
+        justify-content:unset;
+        min-height: 200px;
+    }
+
+    /*---------- Admission ---------- */
+    .admission-container {
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    /*---------- Explore - Exhibition - Get involved/contribution ---------*/
+    .reverse-flex {
+        flex-direction: column;
+    }
+    .horizontal-card-container {
+        align-items: center;
+        gap: 25px;
+        padding: 25px 0;
+    }
+    .article-margin-LR {
+        margin:0; 
+    }
+    .article-container-2{
+        flex-direction: column;
+        max-height: 2000px;
+    }
+    .article-img-2-container {
+        overflow: none;
+    }
+    .article-img-2-container img {
+        max-width: 1090px;
+        width: 100%;
+        height: auto;
+    }
+
+    /*--------- Contact --------*/
+    .contact-container {
+        padding: 0;
+    } 
+    .contact-forms {
+        margin-bottom: 0;
+        padding-top: 25px;
+        gap: 25px;
+    }
+
+    /*--------- Buttons --------*/
+    .medium-btn, .link-btn {
+        width: 250px;
+        height: 60px;
+        font-size: 25px;
+        margin: 10px 0 25px 0;
+    }
+
+    /*---------Terms / Privacy --------*/
+    .h1-document {
+        font-size: 35px;
+    }
+    .doc-heading {
+        font-size: 25px;
+    }
+    .text-summary {
+        font-size: 20px;
+        margin: 0 25px;
+    }
+    .p-doc-date {
+        margin: 0;
+    }
+    .document-container {
+        margin: 50px 0;
+        height: 75px;
+    }
+    .doc-logo {
+        margin-top: 75px;
+    }
+
+    /*---------- Footer ----------*/
+    footer {
+        margin-top: 75px;
+    }
+    .footer-headline {
+        font-size: 25px;
+        /* text-align: center; */
+    }
+}
+
+
+/* ================ Media max 850px ================ */
+
+
+@media screen and (max-width: 850px){
+    .hide {
+        display: none;
+    }
+
+    /*---------- Header/menu ----------*/
+    header {
+        height: 75px;
+    }
+    .logo-header {
+        width: 65px;
+    }
+    .dropdown-menu-container {
+        top: 75px;
+        max-height: 500px;
+        overflow-y: auto;
+    }
+    .menu-details {
+        padding-right: 15px;
+    } 
+    .logo-header {
+        padding-left: 15px;
+    }
+    summary::before {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-button {
+        width: 50px;
+        transition: 0.2s ease;
+    }
+    .menu-list-margin {
+        margin: 20px 5px;
+    }
+    .menu-ul {
+        margin: 0;
+    }
+    .under-menu-list {
+        margin-bottom: 20px;
+    }
+    .shadow-overlay {
+        margin-bottom: 25px;
+    }
+
+    /*---------- Search bar ----------*/
+    .input-menu {
+        max-width: 250px;
+    }
+    .image-header-container {
+        height: 50vw;
+    }
+
+    /*---------- Text ----------*/
+    h1 {
+        font-size: 7vw;
+    }
+    .h1-document {
+        font-size: 25px;
+    }
+    .h2-white {
+        font-size: 14px;
+    }
+    .h3-white {
+        font-size: 18px;
+    }
+    h3, .h1-visit { 
+        font-size: 30px;
+        height: 50px;
+    }
+    .location-padding-bottom {
+        padding-bottom: 25px;
+    }
+    .text-summary {
+        font-size: 16px;
+    }
+    .doc-heading {
+        font-size: 20px;
+    }
+    .p-doc-date {
+        font-size: 16px;
+    }
+    
+    /*---------- Buttons ----------*/
+    .medium-btn, .link-btn {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        margin: 5px 0 15px 0;
+    } 
+
+    .vertical-card-container {
+        flex-wrap: wrap; 
+    }
+
+    .article-margin-left, .article-margin-right  {
+        margin: 0;
+    }
+    
+
+    /*---------Terms / Privacy --------*/
+    .document-container {
+        margin: 25px 0;
+        height: 75px;
+    }
+    .doc-logo {
+        margin-top: 50px;
+    }
+
+    /*-------- Footer -------- */
+    footer {
+        margin-top: 50px;
+    }
+
 }
