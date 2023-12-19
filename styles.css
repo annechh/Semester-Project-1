@@ -280,6 +280,11 @@ p {
     color: black;
 }
 
+
+
+.text-2-margin-bottom {
+    margin-bottom: 25px;
+}
 .article-text-1 {
     text-align: left;
     margin: 0 25px 25px 25px;
@@ -288,10 +293,6 @@ p {
 .article-text-2 {
     margin: 0 25px;
     text-align: left;
-}
-
-.text-2-margin-bottom {
-    margin-bottom: 25px;
 }
 
 .p-mini-headline-margin { /* For location */
