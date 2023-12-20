@@ -5,8 +5,6 @@
 @import url(button.css);
 
 
-/* @import url(media.css); */
-
 :root {
     --Background: #E3E3E3;
     --Purple-linear-background: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
@@ -39,15 +37,6 @@ main {
     align-items: center;
 }
 
-
-/*----- Icons -----*/
-
-.icon {
-    font-size: 40px;
-}
-
-/*----- Used several places -----*/
-
 .container {
     max-width: 1920px;
     width: 100%;
@@ -70,8 +59,14 @@ main {
     margin-top: -20px;
     position: absolute;
     align-self: center;
+    z-index: -1;
 }
 
+/*----- Icons -----*/
+
+.icon {
+    font-size: 40px;
+}
 
 /* ----- Home page big image ----- */
 
@@ -172,9 +167,6 @@ main {
     max-height: 600px;
     height: 100%;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-}
-
-.article-margin-LR {
     margin:0 35px;
 }
 
@@ -255,7 +247,7 @@ main {
     outline: 2px solid rgba(0, 0, 0, 0.137);
 }
 
-/*------ Text ------*/
+/*----------- Text -----------*/
 
 li {
     color: white;
@@ -417,7 +409,6 @@ h4 {
         top: 100px;
     }
     
-    
     /*---------- Text ----------*/
     
     .article-text-2 {
@@ -427,12 +418,9 @@ h4 {
     .p-mini-headline-margin {
         margin-top: 25px;
     }
-    
-    
     h1 {
         font-size: 6vw;
     }
-    
     .h2-white {
         font-size: 20px;
     }
@@ -469,32 +457,30 @@ h4 {
     .article-margin-right{
         margin-right: 15px;
     }
-    .article-info {
-        justify-content:unset;
-        min-height: 200px;
-    }
-
+    
     /*---------- Admission ---------- */
     .admission-container {
         margin-top: 25px;
         margin-bottom: 0;
     }
-
+    
     /*---------- Explore - Exhibition - Get involved/contribution ---------*/
     .reverse-flex {
         flex-direction: column;
     }
-    .horizontal-card-container {
+    .container-media {
+        display: flex;
         align-items: center;
+    }
+    .horizontal-card-container {
         gap: 25px;
         padding: 25px 0;
-    }
-    .article-margin-LR {
-        margin:0; 
+        max-width: 975px;
     }
     .article-container-2{
         flex-direction: column;
         max-height: 2000px;
+        margin: 0 25px;
     }
     .article-img-2-container {
         overflow: none;
@@ -564,10 +550,20 @@ h4 {
         display: none;
     }
 
+    .media-margin-top {
+        margin-top: 75px;
+    }
+
     /*---------- Header/menu ----------*/
     header {
         height: 75px;
+        position: fixed;
+        background: var(--Background);
     }
+    nav {
+        background: var(--Purple-header-linear);
+    }
+    
     .logo-header {
         width: 65px;
     }
@@ -643,13 +639,7 @@ h4 {
         font-size: 16px;
     }
     
-    /*---------- Buttons ----------*/
-    .medium-btn, .link-btn {
-        width: 150px;
-        height: 40px;
-        font-size: 18px;
-        margin: 5px 0 15px 0;
-    } 
+    
 
     .vertical-card-container {
         flex-wrap: wrap; 
@@ -673,5 +663,22 @@ h4 {
     footer {
         margin-top: 50px;
     }
+}
 
+/* ================ Media max 768px ================ */
+
+
+@media screen and (max-width: 768px){
+
+    .article-container-2 {
+        margin: 0;
+    }
+    
+    /*---------- Buttons ----------*/
+    .medium-btn, .link-btn {
+        width: 175px;
+        height: 50px;
+        font-size: 18px;
+        margin: 5px 0 15px 0;
+    } 
 }
