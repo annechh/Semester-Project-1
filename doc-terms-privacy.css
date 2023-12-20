@@ -24,7 +24,7 @@
     background: white;
     max-width: 1385px;
     width: 100%;
-    padding: 25px 0 0 15px;
+    padding: 25px 0;
 }
 
 .document-info-container details {
@@ -56,5 +56,6 @@
 
 .doc-logo {
     margin-top: 100px;
+    width: 70px;
 }
 
