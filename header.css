@@ -8,11 +8,10 @@ header {
     display: flex;
     justify-content: center;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.45);
-    background: var(--Background);
+    background: var(--Purple-header-linear);
 }
 
 nav { 
-    background: var(--Purple-header-linear);
     width: 1920px;
     display: flex;
     justify-content: space-between;
