@@ -47,10 +47,11 @@ footer {
     text-align: center;
 }
 
-.table-left {
+.table-left, .icon-align-left {
     text-align: left;
 }
-.table-right{
+
+.table-right, .icon-align-right{
     text-align: right;   
 }
 
@@ -58,13 +59,6 @@ footer {
     padding: 10px;
 }
 
-.icon-align-right {
-    text-align: right;
-}
-
-.icon-align-left {
-    text-align: left;
-}
 
 /* ----- Phone and email info ----- */
 

@@ -179,7 +179,7 @@ main {
     align-items: center;
 }
 
-.article-info-explore {
+.article-info-box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -450,16 +450,15 @@ h4 {
         padding: 25px 0;
     }
     .article-container-1 {
-        margin: 0;
         max-width: 1000px;
         display: flex;
         flex-direction: column;
     }
     .article-margin-left {
-        margin-left: 15px;
+        margin-left: 25px;
     }
     .article-margin-right{
-        margin-right: 15px;
+        margin-right: 25px;
     }
     
     /*---------- Admission ---------- */
@@ -506,7 +505,7 @@ h4 {
     }
 
     /*--------- Buttons --------*/
-    .medium-btn, .link-btn {
+    .contact-btn, .link-btn {
         width: 250px;
         height: 60px;
         font-size: 25px;
@@ -684,7 +683,7 @@ h4 {
 
     
     /*---------- Buttons ----------*/
-    .medium-btn, .link-btn {
+    .contact-btn, .link-btn {
         width: 175px;
         height: 50px;
         font-size: 18px;
@@ -703,5 +702,9 @@ h4 {
     }
     .li-menu-margin-bottom {
         margin-bottom: 20px;
+    }
+    .contact-btn, .link-btn {
+        width: 150px;
+        height: 45px;
     }
 }
