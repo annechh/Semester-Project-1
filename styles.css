@@ -46,20 +46,19 @@ main {
 }
 
 .shadow-overlay {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     margin-bottom: 100px;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 .h1-header-text {
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 600;
     color: white;
     text-shadow: 0px 5px 4px #000;
     margin-top: -20px;
     position: absolute;
     align-self: center;
-    z-index: -1;
 }
 
 /*----- Icons -----*/
@@ -71,7 +70,6 @@ main {
 /* ----- Home page big image ----- */
 
 .header-img {
-    align-items: center;
     width: 100%;
     height: auto;
     z-index: -2;
@@ -216,6 +214,9 @@ main {
     gap: 35px;
 }
 
+.logo-no-text {
+    width: 70px;
+}
 .contact-text-box {
     max-width: 600px;
 }
@@ -257,7 +258,7 @@ li {
 a {
     color: white;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .link-black {
@@ -375,7 +376,7 @@ h4 {
 @media screen and (min-width: 1920px) {
 
     .h1-header-text{
-        font-size: 100px;
+        font-size: 115px;
     }   
 }
 
@@ -411,6 +412,9 @@ h4 {
     
     /*---------- Text ----------*/
     
+    .h1-header-text {
+        font-size: 7vw;
+    }
     .article-text-2 {
         margin: 0 25px 25px 25px;
         text-align: left;
@@ -559,6 +563,7 @@ h4 {
         height: 75px;
         position: fixed;
         background: var(--Background);
+        z-index: 1;
     }
     nav {
         background: var(--Purple-header-linear);
@@ -571,6 +576,7 @@ h4 {
         top: 75px;
         max-height: 500px;
         overflow-y: auto;
+        padding-top: 15px;
     }
     .menu-details {
         padding-right: 15px;
@@ -583,10 +589,14 @@ h4 {
     }
     .menu-icon {
         display: block;
+        font-size: 35px;
+        color: black;
     }
     .menu-button {
-        width: 50px;
+        width: 45px;
+        height: 45px;
         transition: 0.2s ease;
+        background: none;
     }
     .menu-list-margin {
         margin: 20px 5px;
@@ -594,19 +604,8 @@ h4 {
     .menu-ul {
         margin: 0;
     }
-    .under-menu-list {
-        margin-bottom: 20px;
-    }
     .shadow-overlay {
         margin-bottom: 25px;
-    }
-
-    /*---------- Search bar ----------*/
-    .input-menu {
-        max-width: 250px;
-    }
-    .image-header-container {
-        height: 50vw;
     }
 
     /*---------- Text ----------*/
@@ -638,13 +637,16 @@ h4 {
     .p-doc-date {
         font-size: 16px;
     }
-    
-    
 
+    /*---------- Search bar ----------*/
+    .input-menu {
+        max-width: 250px;
+    }
+
+    /*----------- Article -----------*/
     .vertical-card-container {
         flex-wrap: wrap; 
     }
-
     .article-margin-left, .article-margin-right  {
         margin: 0;
     }
@@ -652,8 +654,8 @@ h4 {
 
     /*---------Terms / Privacy --------*/
     .document-container {
-        margin: 25px 0;
-        height: 75px;
+        margin: 100px 0 25px 0;
+        /* height: 75px; */
     }
     .doc-logo {
         margin-top: 50px;
@@ -673,6 +675,13 @@ h4 {
     .article-container-2 {
         margin: 0;
     }
+    .article-text-1, .article-text-2, .admission-text, .link-black {
+        font-size: 16px;
+    }
+    h2, h4  {
+        font-size: 20px;
+    }
+
     
     /*---------- Buttons ----------*/
     .medium-btn, .link-btn {
@@ -681,4 +690,18 @@ h4 {
         font-size: 18px;
         margin: 5px 0 15px 0;
     } 
+}
+
+/* ================ Media max 499px ================ */
+
+
+@media screen and (max-width: 499px){
+    
+    .menu-list-margin {
+        margin: 0;
+        margin: 0 5px 20px 5px;
+    }
+    .li-menu-margin-bottom {
+        margin-bottom: 20px;
+    }
 }
