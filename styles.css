@@ -61,12 +61,6 @@ main {
     align-self: center;
 }
 
-/*----- Icons -----*/
-
-.icon {
-    font-size: 40px;
-}
-
 /* ----- Home page big image ----- */
 
 .header-img {
@@ -74,6 +68,18 @@ main {
     height: auto;
     z-index: -2;
 }
+
+.shadow-overlay-homepage {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/*----- Icons -----*/
+
+.icon {
+    font-size: 40px;
+}
+
 
 /*----- Textbox under big image homepage-----*/
 
