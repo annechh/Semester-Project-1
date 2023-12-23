@@ -578,7 +578,7 @@ h4 {
         top: 75px;
         max-height: 500px;
         overflow-y: auto;
-        padding-top: 15px;
+        padding-top: 25px;
     }
     .menu-details {
         padding-right: 15px;
@@ -699,6 +699,9 @@ h4 {
     .menu-list-margin {
         margin: 0;
         margin: 0 5px 20px 5px;
+    }
+    .menu-list-wrapper {
+        padding-bottom: 0;
     }
     .li-menu-margin-bottom {
         margin-bottom: 20px;
