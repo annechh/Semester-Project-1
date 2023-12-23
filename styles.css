@@ -6,15 +6,10 @@
 
 
 :root {
-    --Background: #E3E3E3;
-    --Purple-linear-background: linear-gradient(to bottom,#7e388908,#7e3889,#7e388908);
-    --Purple-faded-background: linear-gradient(to bottom,#7e388908,#7e38897e,#7e388908);
-
+    --Background: #EFEFEF;
     --Purple-header-linear: linear-gradient(to bottom, #7E3889,#7e388908);
-
     --Green-linear-top-mid-bo: linear-gradient(to bottom,#438938,#43893875,#438938);
     --Blue-linear-top-mid-bo: linear-gradient(to bottom,#386C89,#386d8965,#386C89);
-
     --Green: rgb(67, 137, 56);
     --Purple-text-button-footer: #682872;
 }
@@ -27,7 +22,6 @@ h1, h2, h3, h4, h5, p, a, ul {
 body {
     margin: 0;
     font-family: 'Fredoka', sans-serif;
-    background: var(--Purple-linear-background);
     background: var(--Background);
 }
 
