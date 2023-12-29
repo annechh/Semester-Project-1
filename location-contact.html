@@ -118,15 +118,15 @@
                 <article class="article-container-1">
                     <img src="images-SP1/scott-webb-102825.jpg" alt="Museum building with many colors">
                     <h2>Location</h2>
-                    <p><strong>Adress</strong></p>
+                    <p class="location-font-weight">Adress</p>
                     <p class="p-no-margin">MadeupStreet 1</p>
                     <p class="p-no-margin">6800 Sunnfjord</p>
                     <p class="p-no-margin">Norway</p>
 
-                    <p class="p-mini-headline-margin"><strong>Phone</strong></p>
+                    <p class="location-font-weight p-mini-headline-margin">Phone</p>
                     <p class="p-no-margin">+47 123 45 678</p>
 
-                    <p class="p-mini-headline-margin"><strong>E-Mail</strong></p>
+                    <p class="location-font-weight p-mini-headline-margin">E-Mail</p>
                     <p class="p-no-margin location-padding-bottom">ssm@imaginary.com</p>
                     <div></div>
                 </article>
@@ -156,19 +156,21 @@
                         for internship or other questions you might have. </p>
                         <p class="article-text-1">You can also call us or send an email. Info <a href="location-contact.html#link-location" class="link-black">above.</a></p>
                     </div>
-                    <form action="#" class="contact-fields" id="name">
-                        <label for="name-field">Name</label>
-                        <input class="contact-fields name-email-field" id="name-field">
-                    </form>
-                    <form action="#" class="contact-fields" id="email">
-                        <label for="email-field">Email</label>
-                        <input type="email" class="contact-fields name-email-field" id="email-field">
-                    </form>
-                    <form action="#" class="contact-fields">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="type-text" 
-                        class="type-text" rows="10"></textarea>
-                    </form>
+                    <div class="form-width">
+                        <form class="contact-fields" id="name">
+                            <label for="name-field">Name</label>
+                            <input class="contact-fields name-email-field" id="name-field">
+                        </form>
+                        <form class="contact-fields" id="email">
+                            <label for="email-field">Email</label>
+                            <input type="email" class="contact-fields name-email-field" id="email-field">
+                        </form>
+                        <form class="contact-fields">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="type-text" 
+                            class="type-text" rows="10"></textarea>
+                        </form>
+                    </div>
                     <input type="submit" class="contact-btn" value="Send">
                 </div>
             </div>
@@ -235,13 +237,13 @@
     <footer>
         <div class="footer-container">
             <div class="footer-inner-container">
-                <table class="table-container-hours hide text-white">
+                <table class="table-container-hours  text-white">
                     <thead>
                         <tr>
                             <th class="footer-headline table-left">Quick Links</th>
                         </tr>
                     </thead>
-                    <tbody class="table-left">
+                    <tbody class="table-left table-center">
                         <tr>
                             <td><a href="index.html">Home</a></td>
                         </tr>

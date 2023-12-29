@@ -211,13 +211,15 @@ main {
 }
 
 .contact-forms label {
-    padding-left: 10px;
     padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;   
 }
 
 .logo-no-text {
     width: 70px;
 }
+
 .contact-text-box {
     max-width: 600px;
 }
@@ -231,10 +233,12 @@ main {
     border: 0;
 }
 
-.contact-fields label {
-    font-size: 20px;
-    font-weight: 500;
-    
+.form-width {
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .name-email-field {
@@ -302,6 +306,10 @@ p {
 .p-mini-headline-margin { /* For location */
     margin-top: 25px;
     margin-bottom: 0;
+}
+
+.location-font-weight {
+    font-weight: 600;
 }
 
 .p-no-margin { /* 0 margin for adress, phone and email */
@@ -408,15 +416,16 @@ h4 {
         margin-bottom: 50px;
     }
     header {
-        height: 100px;
+        height: 75px;
     }
     .logo-header {
-        width: 75px;
+        width: 65px;
         padding-left: 25px;
     }
     .menu-button {
         width: 100px;
         transition: 0.2s ease;
+        font-size: 20px;
     }
     .menu-details {
         padding-right: 25px;
@@ -424,7 +433,7 @@ h4 {
 
     /*--------Drop down menu -------*/
     .dropdown-menu-container {
-        top: 100px;
+        top: 75px;
     }
     
     /*---------- Text ----------*/
@@ -526,7 +535,7 @@ h4 {
         width: 250px;
         height: 60px;
         font-size: 25px;
-        margin: 10px 0 25px 0;
+        margin-bottom: 25px;
     }
 
     /*---------Terms / Privacy --------*/
@@ -565,16 +574,14 @@ h4 {
 
 
 @media screen and (max-width: 850px){
-    .hide {
-        display: none;
-    }
+
     .media-margin-top {
-        margin-top: 75px;
+        margin-top: 60px;
     }
 
     /*---------- Header/menu ----------*/
     header {
-        height: 75px;
+        height: 60px;
         position: fixed;
         background: var(--Background);
         z-index: 1;
@@ -583,10 +590,10 @@ h4 {
         background: var(--Purple-header-linear);
     }
     .logo-header {
-        width: 65px;
+        width: 50px;
     }
     .dropdown-menu-container {
-        top: 75px;
+        top: 60px;
         max-height: 500px;
         overflow-y: auto;
         padding-top: 25px;
@@ -602,7 +609,7 @@ h4 {
     }
     .menu-icon {
         display: block;
-        font-size: 35px;
+        font-size: 30px;
         color: black;
     }
     .menu-button {
@@ -641,16 +648,14 @@ h4 {
     .location-padding-bottom {
         padding-bottom: 25px;
     }
-    .text-summary {
+    
+    p, .text-summary {
         font-size: 16px;
     }
     .doc-heading {
         font-size: 20px;
     }
-    .p-doc-date {
-        font-size: 16px;
-    }
-
+    
     /*---------- Search bar ----------*/
     .input-menu {
         max-width: 250px;
@@ -686,7 +691,7 @@ h4 {
     .article-container-2 {
         margin: 0;
     }
-    .article-text-1, .article-text-2, .admission-text, .link-black {
+    .article-text-1, .article-text-2, .link-black, .table-container-hours, .location-font-weight, .p-no-margin, .contact-forms label {
         font-size: 16px;
     }
     h2, h4  {
@@ -698,8 +703,20 @@ h4 {
         width: 175px;
         height: 50px;
         font-size: 18px;
-        margin: 5px 0 15px 0;
-    } 
+    }
+    
+    /*------- Footer --------*/
+    .icon {
+        font-size: 30px;
+    }
+    .footer-headline, .table-center {
+        text-align: center;
+        font-size: 20px;
+    }
+    tbody a {
+        font-size: 16px;
+    }
+    
 }
 
 /* ================ Media max 499px ================ */

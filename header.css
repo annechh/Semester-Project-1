@@ -3,7 +3,7 @@
 /* ---------- Nav Menu ----------*/
 
 header {
-    height: 125px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ nav {
 }
 
 .logo-header {
-    width: 100px;
+    width: 90px;
     height: auto;
     padding-left: 35px;
     transition: 0.3s ease;
@@ -41,12 +41,12 @@ nav {
     width: 150px;
     height: 50px;
     border-radius: 5px;
-    background-color: var(--Purple-text-button-footer);   
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size: 20px;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
     transition: 0.3s ease;
 }
 
@@ -54,7 +54,6 @@ nav {
     transition: 0.3s ease;
     transform: scale(1.1);
 }
-
 
 .menu-button::before {
     content: 'Menu';
